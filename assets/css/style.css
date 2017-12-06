@@ -107,6 +107,7 @@ body {
 }
 h4 {
   font-size: 20px;
+  color: white;
 }
 h3 {
   font-size: 24px;
@@ -137,7 +138,25 @@ h3 {
   margin: 0 auto;
   clear: both;
 }
+.rel {
+  width: 100%;
+  position: relative;
+}
+.project {
+  margin: 5px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+.obi-teal {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  z-index: 1;
+  position: absolute;
+  background-color: #4aaaa5;
+  bottom: 10px;
 
+}
 
 
 
