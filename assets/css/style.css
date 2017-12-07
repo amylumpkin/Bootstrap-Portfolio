@@ -105,10 +105,6 @@ nav {
 body {
   padding-top: 70px;
 }
-h4 {
-  font-size: 20px;
-  color: white;
-}
 h3 {
   font-size: 24px;
   font-family: "Georgia", Times, Times New Roman, serif;
@@ -147,7 +143,17 @@ h3 {
   width: 100%;
   height: 100%;
 }
-.teal {
+.banners {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  bottom: 10px;
+}
+.pic-banners {
+  color: white;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 4px;
